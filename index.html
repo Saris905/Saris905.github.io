@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CarQuiz</title>
+
+</head>
+<body>
+    <header class="header">
+
+        <div class="container">
+            <nav>
+                <div class="logo"><a href="index.html"><img src="img/serviceimg/logo.png"></a></div>
+                <ul class="menu">
+
+                    <li class="menu__item"><a href="#">Rules</a></li>
+                    <li class="menu__item"><a href="#">Forum</a></li>
+                    <li class="menu__item"><a href="#">Contacts</a></li>
+                    <li class="menu__item"><a href="#">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="myCards">
+                    <div id="startBtn" class="start">
+                        <a href="#orient" class="start__btn"> Start</a>
+                    </div>
+                    <div class="content">
+
+                    </div>
+                    <template id="card">
+                        <div id="orient" class="card-item hidden">
+                            <img src="#" class="card-img" alt="#">
+                            <div class="buttons">
+                                <button id="color" class="button__item"><p class="btn1">#</p></button>
+                                <button class="button__item"><p class="btn2">#</p></button>
+                                <button class="button__item"><p class="btn3">#</p></button>
+                                <button class="button__item"><p class="btn4">#</p></button>
+                            </div>
+                        </div>
+                    </template>
+                    <div class="finish__block hidden">
+                        <div class="your__score"><p>#</p></div>
+                        <div class="end"><a href="#"> Try again</a><div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="copyright">
+            © 2019 It's my Copyright
+        </div>
+    </footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
