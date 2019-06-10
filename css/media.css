@@ -1,0 +1,117 @@
+/* 1601 - 1920 px */
+@media screen and (max-width: 1920px) {
+
+}
+
+/* 1369 - 1600 px */
+@media screen and (max-width: 1600px) {
+
+}
+
+/* 961 - 1368 px */
+@media screen and (max-width: 1368px) {
+    .button__item {
+        height: 115px;
+    }
+    .container {
+        width: 800px;
+    }
+    .card-img {
+        width: 800px;
+    }
+    .button__item {
+        width: 401px;
+        height: 110px;
+        font-size: 26px;
+    }
+}
+
+/* 769 - 960 px */
+@media screen and (max-width: 960px) {
+    .container {
+        width: 700px;
+    }
+    .button__item {
+        width: 751px;
+        height: 115px;
+    }
+    .card-img {
+        width: 700px;
+    }
+    .your__score {
+        font-size: 36px;
+        margin: 50px 0;
+    }
+    .end a{
+        font-size: 24px;
+        padding: 50px 110px;
+        margin: 40px;
+    }
+}
+
+/* 481 - 768 px */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 400px;
+    }
+    .button__item {
+        width: 451px;
+        font-size: 25px;
+        height: 110px;
+    }
+    .card-img {
+        width: 400px;
+    }
+    .menu {
+        display: none;
+    }
+    .logo {
+        margin-bottom: 50px;
+    }
+    .your__score {
+        font-size: 30px;
+        margin: 50px 0;
+    }
+    .end a{
+        font-size: 24px;
+        padding: 40px 100px;
+        margin: 40px;
+    }
+    .start a {
+        font-size: 30px;
+    }
+}
+
+/* 320 - 480 px */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 300px;
+    }
+    .button__item {
+        font-size: 20px;
+        height: 100px;
+    }
+    .card-img {
+        width: 300px;
+    }
+    .menu {
+        display: none;
+    }
+    .logo {
+        margin-bottom: 50px;
+    }
+    .your__score {
+        font-size: 22px;
+        margin: 50px 0;
+    }
+    .end a{
+        font-size: 22px;
+        padding: 30px 90px;
+        margin: 50px;
+    }
+    .start a {
+        font-size: 25px;
+        margin: 100px;
+        padding: 40px 80px;
+    }
+}
