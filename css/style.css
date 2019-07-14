@@ -106,10 +106,9 @@ nav {
 }
 
 .container {
-    width: 900px;
+    width: 700px;
     margin: 0 auto;
     text-align: center;
-
 }
 
 .menu {
@@ -139,8 +138,20 @@ nav {
 
 /* Стиль карточек опроса */
 
+
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity 0.3s;
+}
+
+.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
+    opacity: 0;
+}
+
 .card-img {
     width: 900px;
+    max-width: 100%;
+    transition: src 300ms linear;
 }
 
 .root {
@@ -153,19 +164,19 @@ nav {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-
+    height: 90%;
 }
 .card-item {
     box-shadow: 0 0 30px 5px #9d9b9b;
     margin: 0 0 50px 0;
+    /* height: 100%; */
 }
 
 .button__item {
-    font-size: 30px;
-    width:451px;
-    height: 147px;
-    color: #ffffff;
-    background: darkgray;
+    font-size: 26px;
+    width: 50%;
+    height: 120px;
+
     border: 4px solid #fff;
     box-sizing: border-box;
     margin: -2px -2px;
@@ -174,27 +185,33 @@ nav {
     cursor: pointer;
 }
 
-.button__item:hover {
+.button__item__background {
+    color: #ffffff;
+    background: darkgray;
+}
+
+.button__item__background:hover {
     color: #f4f4fa;
     background: #a0a1ec;
 }
 
-.button__item:active {
+.button__item__background:active {
     color: #e5e5f8;
     background: #9091eb;
 }
 
-green {
-    background-color: #04c72d;
+.backgroundFailed {
+    background-color: red;
 }
 
-red {
-
+.backgroundSuccess {
+   background-color: #0bc00b;
+    color: #fff;
 }
 
-gray {
 
-}
+
+
 
 /* Футер и копирайт */
 
@@ -211,3 +228,4 @@ gray {
     bottom: 0;
     width: 100%;
 }
+
