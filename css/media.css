@@ -21,7 +21,7 @@
     }
     .button__item {
         width: 50%;
-        height: 100px;
+        height: 90px;
         font-size: 20px;
     }
     .menu__item a {
@@ -40,6 +40,7 @@
     }
     .card-img {
         width: 700px;
+        border: 0px;
     }
     .your__score {
         font-size: 36px;
@@ -49,6 +50,9 @@
         font-size: 24px;
         padding: 50px 110px;
         margin: 40px;
+    }
+    .button__item:nth-child(1), .button__item:nth-child(3) {
+         border-right: 4px solid #fff;
     }
 }
 
@@ -64,6 +68,7 @@
     }
     .card-img {
         width: 400px;
+        border: 0px;
     }
     .menu {
         display: none;
@@ -72,7 +77,7 @@
         margin-bottom: 50px;
     }
     .your__score {
-        font-size: 30px;
+        font-size: 28px;
         margin: 50px 0;
     }
     .end a{
@@ -83,17 +88,37 @@
     .start a {
         font-size: 30px;
     }
+    .button__item__background:hover {
+        color: #ffffff;
+        background: darkgray;
+    }
+
 }
 
 /* 320 - 480 px */
 @media screen and (max-width: 480px) {
+
     .container {
         width: 300px;
     }
     .button__item {
         font-size: 20px;
         height: 25%;
+        border: 3px solid #fff;
     }
+
+    .button__item:nth-child(1), .button__item:nth-child(3) {
+        border-right: 3px solid #fff;
+    }
+
+    .button__item:nth-child(2), .button__item:nth-child(4) {
+        border-right: 3px solid #fff;
+    }
+
+    .button__item:nth-child(3), .button__item:nth-child(4) {
+        border-bottom: 3px solid #fff;
+    }
+
     .card-img {
         width: 300px;
     }
@@ -104,10 +129,10 @@
         margin-bottom: 50px;
     }
     .your__score {
-        font-size: 22px;
+        font-size: 18px;
         margin: 50px 0;
     }
-    .end a{
+    .end a {
         font-size: 22px;
         padding: 30px 90px;
         margin: 50px;
@@ -117,4 +142,15 @@
         margin: 100px;
         padding: 40px 80px;
     }
+
+}
+
+@media screen and (max-width: 320px) {
+    .button__item {
+        font-size: 16px;
+    }
+    .logo {
+        margin-bottom: 30px;
+    }
+
 }
